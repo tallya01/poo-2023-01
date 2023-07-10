@@ -11,4 +11,9 @@ public class Prova implements Identificacao {
             this.numQuestoes = n;
         }
     }
+
+    @Override
+    public String getNome() {
+        throw new Error("metodo nao implementado");
+    }
 }

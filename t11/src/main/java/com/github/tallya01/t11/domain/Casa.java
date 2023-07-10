@@ -1,5 +1,7 @@
 package com.github.tallya01.t11.domain;
 
+import java.util.List;
+
 public class Casa {
     List<Garagem> garagens;
     List<Banheiro> banheiros;

@@ -9,7 +9,7 @@ public class Pais3 {
         this.capital = capital;
     }
 
-    public addCidade(Cidade3 c) {
+    public void addCidade(Cidade3 c) {
         this.cidades.add(c);
     }
 }

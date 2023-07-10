@@ -4,14 +4,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <properties>
-        <nome.projeto>exemplo</nome.projeto>
+        <nome.projeto>t10</nome.projeto>
 
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
         <maven.compiler.target>${java.version}</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-
-        <project.mainClass>com.github.kyriosdata.exemplo.application.console.ProgramaCalendario</project.mainClass>
 
         <tools.dir>${project.basedir}/tools</tools.dir>
 
@@ -52,8 +50,8 @@
         <version>3.0.0</version>
     </parent>
 
-    <groupId>com.github.kyriosdata</groupId>
-    <artifactId>exemplo</artifactId>
+    <groupId>com.github.tallya01</groupId>
+    <artifactId>t10</artifactId>
     <packaging>jar</packaging>
     <version>1.0.3</version>
 
@@ -66,7 +64,7 @@
         necessidades específicas do projeto em questão.
     </description>
 
-    <url>https://github.com/kyriosdata/${nome.projeto}</url>
+    <url>https://github.com/tallya01/${nome.projeto}</url>
 
     <organization>
         <name>Instituto de Informática (UFG) - Fábrica de Software</name>
@@ -90,7 +88,7 @@
 
     <developers>
         <developer>
-            <id>kyriosdata</id>
+            <id>tallya01</id>
             <name>Fábio Nogueira de Lucena</name>
             <email>fabio@inf.ufg.br</email>
             <organization>Instituto de Informática (UFG)</organization>
@@ -99,11 +97,11 @@
     </developers>
 
     <scm>
-        <connection>scm:git:https://github.com/kyriosdata/${nome.projeto}.git
+        <connection>scm:git:https://github.com/tallya01/${nome.projeto}.git
         </connection>
-        <developerConnection>scm:git:https://github.com/kyriosdata/${nome.projeto}.git
+        <developerConnection>scm:git:https://github.com/tallya01/${nome.projeto}.git
         </developerConnection>
-        <url>https://github.com/kyriosdata/${nome.projeto}</url>
+        <url>https://github.com/tallya01/${nome.projeto}</url>
     </scm>
 
     <dependencies>
@@ -678,14 +676,6 @@
                             </dependency>
                         </dependencies>
                         <configuration>
-                            <targetClasses>
-                                <param>
-                                    com.github.kyriosdata.exemplo.domain.Calendario
-                                </param>
-                            </targetClasses>
-                            <targetTests>
-                                <param>com.github.kyriosdata.exemplo.*</param>
-                            </targetTests>
                         </configuration>
                     </plugin>
                 </plugins>

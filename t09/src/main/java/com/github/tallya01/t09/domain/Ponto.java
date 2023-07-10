@@ -4,7 +4,7 @@ public class Ponto {
     double x;
     double y;
 
-    public transladar(double dx, double dy) {
+    public void transladar(double dx, double dy) {
         this.x += dx;
         this.y += dy;
     }

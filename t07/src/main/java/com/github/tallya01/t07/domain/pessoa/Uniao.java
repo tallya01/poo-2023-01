@@ -1,7 +1,10 @@
 package com.github.tallya01.t07.domain.pessoa;
+
+import java.util.ArrayList;
+
 public class Uniao {
     private ArrayList filhos;
-    private Pessoa parceiros[2];
+    private Pessoa parceiros[] = new Pessoa[2];
 
     public void novoFilho(Pessoa p) {
         filhos.add(p);

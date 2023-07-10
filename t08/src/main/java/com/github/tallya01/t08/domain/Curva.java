@@ -2,6 +2,8 @@ package com.github.tallya01.t08.domain;
 
 import java.util.ArrayList;
 import java.lang.IllegalArgumentException;
+import java.util.List;
+
 public class Curva {
     private List<Ponto> pontos = new ArrayList();
 
@@ -14,7 +16,7 @@ public class Curva {
         pontos.add(ponto2);
     }
 
-    public addPonto(Ponto p){
-        pontos.add(ponto1);
+    public void addPonto(Ponto p){
+        pontos.add(p);
     }
 }

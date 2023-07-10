@@ -7,6 +7,7 @@ public class TesteSomaNaturais {
             s += c;
             c += 1;
         }
+        return s;
     }
 
     public static void main(String[] args) {

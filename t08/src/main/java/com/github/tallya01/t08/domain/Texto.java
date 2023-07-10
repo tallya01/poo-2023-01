@@ -1,6 +1,8 @@
 package com.github.tallya01.t08.domain;
 
 import java.util.ArrayList;
+import java.util.List;
+
 public class Texto {
     List<Paragrafo> paragrafos = new ArrayList();
 
@@ -8,7 +10,7 @@ public class Texto {
         paragrafos.add(p);
     }
 
-    public addParagrafo(Paragrafo p) {
+    public void addParagrafo(Paragrafo p) {
         paragrafos.add(p);
     }
 }

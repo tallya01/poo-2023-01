@@ -5,6 +5,6 @@ public class Circulo2 {
     double raio;
 
     public void transladar(double dx, double dy){
-        this.ponto.transladar(dx, dy);
+        this.centro.transladar(dx, dy);
     }
 }

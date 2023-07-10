@@ -1,4 +1,7 @@
 package com.github.tallya01.t07.domain.festa;
+
+import java.util.TreeSet;
+
 public class Festa {
     private TreeSet convidados = new TreeSet();
 

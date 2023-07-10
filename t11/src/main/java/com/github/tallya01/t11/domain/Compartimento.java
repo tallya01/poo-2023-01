@@ -1,7 +1,10 @@
 package com.github.tallya01.t11.domain;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Compartimento {
-    List<Livro> livros = new ArrayList();
+    List<Livro> livros = new ArrayList<>();
     List<CD> cds = new ArrayList();
 
     public Compartimento(CD cd1, CD cd2){
@@ -10,7 +13,7 @@ public class Compartimento {
         cds.add(cd2);
     }
 
-    public addLivro(Livro l){
+    public void addLivro(Livro l){
         if(livros.size() == 3){
             System.out.println("Não é possível adicionar mais livros");
         } else {
@@ -18,7 +21,7 @@ public class Compartimento {
         }
     }
 
-    public addCds(List<CD> cds){
+    public void addCds(List<CD> cds){
         int novoTamanho = cds.size() + this.cds.size();
 
         if(novoTamanho == 2 || novoTamanho == 4 || novoTamanho >= 7) {

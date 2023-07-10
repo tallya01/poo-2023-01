@@ -1,7 +1,10 @@
 package com.github.tallya01.t11.domain;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Arvore {
-    List<Folha> folhas = new ArrayList();
+    List<Folha> folhas = new ArrayList<>();
     List<Floresta> florestas = new ArrayList();
 
     public Arvore(Folha folha, Floresta floresta) {
@@ -11,10 +14,10 @@ public class Arvore {
         florestas.add(floresta);
     }
 
-    public addFolha(Folha f) {
+    public void addFolha(Folha f) {
         folhas.add(f);
     }
-    public addFloresta(Floresta f) {
+    public void addFloresta(Floresta f) {
         florestas.add(f);
     }
 }
