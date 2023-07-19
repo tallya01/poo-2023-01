@@ -4,10 +4,12 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/t07/exemplo.iml" filepath="$PROJECT_DIR$/t07/exemplo.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/poo-2023-01.iml" filepath="$PROJECT_DIR$/.idea/poo-2023-01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t07/t07.iml" filepath="$PROJECT_DIR$/t07/t07.iml" />
       <module fileurl="file://$PROJECT_DIR$/t08/t08.iml" filepath="$PROJECT_DIR$/t08/t08.iml" />
       <module fileurl="file://$PROJECT_DIR$/t09/t09.iml" filepath="$PROJECT_DIR$/t09/t09.iml" />
       <module fileurl="file://$PROJECT_DIR$/t10/t10.iml" filepath="$PROJECT_DIR$/t10/t10.iml" />
       <module fileurl="file://$PROJECT_DIR$/t11/t11.iml" filepath="$PROJECT_DIR$/t11/t11.iml" />
+      <module fileurl="file://$PROJECT_DIR$/t13/t13.iml" filepath="$PROJECT_DIR$/t13/t13.iml" />
       <module fileurl="file://$PROJECT_DIR$/t17/t17.iml" filepath="$PROJECT_DIR$/t17/t17.iml" />
     </modules>
   </component>

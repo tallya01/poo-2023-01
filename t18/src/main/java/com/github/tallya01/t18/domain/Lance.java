@@ -1,4 +1,4 @@
-package com.github.tallya01.t18;
+package com.github.tallya01.t18.domain;
 
 public class Lance {
     Jogador jogador;
