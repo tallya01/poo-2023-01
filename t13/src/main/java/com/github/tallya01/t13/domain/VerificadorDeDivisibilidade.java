@@ -1,3 +1,5 @@
+package com.github.tallya01.t13.domain;
+
 import java.util.Scanner;
 import java.io.*;
 
@@ -12,12 +14,14 @@ class VerificadorDeDivisibilidade {
 
         System.out.print("Digite o numero que deseja verificar: ");
         String num = in.nextLine();
-        Double numero = new Double(num);
+        Double numero = Double.parseDouble(num);
 
         System.out.print("Digite o divisor: ");
         String div = in.nextLine();
-        Double divisor = new Double(div);
+
+        Double divisor = Double.parseDouble(div);
         boolean isDivisivel = verificarDivisibilidade(numero, divisor);
+
         System.out.println(numero + (isDivisivel ? " eh" : " nao eh") + " divisivel por " + divisor);
     }
 }

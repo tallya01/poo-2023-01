@@ -1,3 +1,5 @@
+package com.github.tallya01.t13.domain;
+
 import java.util.Scanner;
 import java.util.Date;
 import java.text.DateFormat;
@@ -29,8 +31,10 @@ class CalculadoraDeIdade {
 
     public static void main(String[] args) throws ParseException {
         Scanner in = new Scanner(System.in);
+
         System.out.print("Digite a data de nascimento no formado DD/MM/YYYY: ");
         String input = in.nextLine();
+
         int idade = calculaIdade(input);
         System.out.println("Vc tem " + idade + " anos");
     }
